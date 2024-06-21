@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #CountLabel {
+    font-size: 2em;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #DecBtn {
+    background-color: #ffcccc;
+  }
+  
+  #ReBtn {
+    background-color: #ffeb99;
+  }
+  
+  #IncBtn {
+    background-color: #ccffcc;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
